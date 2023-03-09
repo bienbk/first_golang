@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/first_golang/model"
+	"github.com/bienbk/first_golang/model"
 )
 
 // type Hello struct {

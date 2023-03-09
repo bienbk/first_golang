@@ -2,7 +2,7 @@ package routers
 
 import (
 	"github.com/beego/beego/v2/server/web"
-	"github.com/first_golang/controllers"
+	"github.com/bienbk/first_golang/controllers"
 )
 
 func init() {
