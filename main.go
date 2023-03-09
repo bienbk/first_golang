@@ -1,8 +1,8 @@
 package main
 
 import (
-	_ "github.com/FirstGolang/routers"
 	beego "github.com/beego/beego/v2/server/web"
+	_ "github.com/first_golang/routers"
 )
 
 func main() {

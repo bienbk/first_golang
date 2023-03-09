@@ -7,7 +7,7 @@ import (
 
 func init() {
 
-    beego.GlobalControllerRouter["github.com/FirstGolang/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/FirstGolang/controllers:TestController"],
+    beego.GlobalControllerRouter["github.com/first_golang/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/first_golang/controllers:TestController"],
         beego.ControllerComments{
             Method: "Xinchao",
             Router: "/add",
@@ -16,7 +16,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["github.com/FirstGolang/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/FirstGolang/controllers:TestController"],
+    beego.GlobalControllerRouter["github.com/first_golang/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/first_golang/controllers:TestController"],
         beego.ControllerComments{
             Method: "DivFunction",
             Router: "/div",
@@ -25,7 +25,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["github.com/FirstGolang/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/FirstGolang/controllers:TestController"],
+    beego.GlobalControllerRouter["github.com/first_golang/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/first_golang/controllers:TestController"],
         beego.ControllerComments{
             Method: "Multipli",
             Router: "/multiplication",
@@ -34,7 +34,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["github.com/FirstGolang/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/FirstGolang/controllers:TestController"],
+    beego.GlobalControllerRouter["github.com/first_golang/controllers:TestController"] = append(beego.GlobalControllerRouter["github.com/first_golang/controllers:TestController"],
         beego.ControllerComments{
             Method: "SubFunction",
             Router: "/sub",
