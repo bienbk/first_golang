@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"bien.com/hocgo/controllers"
+	"github.com/FirstGolang/controllers"
 	"github.com/beego/beego/v2/server/web"
 )
 

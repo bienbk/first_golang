@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "bien.com/hocgo/routers"
+	_ "github.com/FirstGolang/routers"
 	beego "github.com/beego/beego/v2/server/web"
 )
 
